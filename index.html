@@ -8,6 +8,22 @@
     <title>Welcome - Hairpins Boutique Salon</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- embed google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .services-link {
+        background-color: #58e6ce;
+      }
+
+      .services-link a {
+        color: #000000;
+      }
+    </style>
   </head>
 
   <body>
@@ -37,13 +53,14 @@
 
     <figure>
       <img
+        class="figure-image"
         src="images/the-hairpins-salon.jpeg"
         alt="An interior view of the Hairpins salon."
       />
+      <figcaption>
+        The Hairpins hairdressing salon in Courtenay, BC, Canada.
+      </figcaption>
     </figure>
-    <figcaption>
-      The Hairpins hairdressing salon in Courtenay, BC, Canada.
-    </figcaption>
 
     <p>
       Stylist and owner, Staysea Brown has been overwhelmed by the success
@@ -53,7 +70,7 @@
       business that's hard to forget. Pop on by!
     </p>
 
-    <p>
+    <p class="services-link">
       <a href="services.html">Time for a new do? Check out our services!</a>
     </p>
 
@@ -74,27 +91,32 @@
 
     <figure>
       <img
-        src="images/the-hairpins-salon.jpeg"
+        class="figure-image"
+        src="images/the-hairpins-team.jpeg"
         alt="A group photograph of the Hairpins salon team."
       />
+      <figcaption>
+        We are incredibly proud of our diverse team of stylists who greet each
+        client with a smile. We prioritize inclusivity, community, and
+        sustainability, and make sure that everyone who walks through our door
+        feels welcome.
+      </figcaption>
     </figure>
-    <figcaption>
-      We are incredibly proud of our diverse team of stylists who greet each
-      client with a smile. We prioritize inclusivity, community, and
-      sustainability, and make sure that everyone who walks through our door
-      feels welcome.
-    </figcaption>
 
-    <p>
-      <a href="contact.html">Contact us today to book an appointment!</a>
+    <p style="background-color: #58e6ce">
+      <a style="color: black" href="contact.html"
+        >Contact us today to book an appointment!</a
+      >
     </p>
 
-    <p>
-      <small>
-        Content taken from
-        <a href="https://www.hairpins.ca/">https://www.hairpins.ca/</a> Used for
-        educational purposes only.
-      </small>
-    </p>
+    <footer>
+      <p>
+        <small>
+          Content taken from
+          <a href="https://www.hairpins.ca/">https://www.hairpins.ca/</a
+          ><br />Used for educational purposes only.
+        </small>
+      </p>
+    </footer>
   </body>
 </html>
